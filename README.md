@@ -70,3 +70,9 @@ User can log out successfully using assertion.
 API Tests
 Verify GET request:
 Returns status code 200 OK.
+Verify logout functionality:
+User can log out successfully using assertion.
+
+API Tests
+Verify GET request:
+Returns status code 200 OK.

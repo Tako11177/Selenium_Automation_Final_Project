@@ -6,6 +6,8 @@ Description
 
 This project is a Selenium Test Automation Framework based on the Page Object Model (POM) design pattern. For testing purposes, I selected the website: https://gorgia.ge/ka
 
+
+
 Features
 
 
@@ -22,12 +24,15 @@ DriverManage - for browser session management
 API Testing - (REST Assured)
 
 
+
 Tech Stack
 
 
 Java 11+ (Tested on Java 24)
 
 Selenium WebDriver
+
+
 
 TestNG
 
@@ -36,6 +41,7 @@ Maven 3.6+ (Tested on Maven 3.9.10)
 ExtentReports
 
 PageFactory
+
 
 
 Prerequisites
@@ -50,6 +56,7 @@ Maven 3.6 or higher (Installed: Maven 3.9.10)
 IntelliJ IDEA or any Java-supported IDE
 
 Chrome browser (or the one you want to test on)
+
 
 
 Dependencies & Versions
@@ -68,7 +75,9 @@ RestAssured: 5.5.0
 Maven Surefire Plugin: 3.2.5
 
 
+
 Implemented Tests
+
 
 
 UI Tests
@@ -91,6 +100,8 @@ Authorized user can browse the catalog (including scrolling down and up).
 Verify logout functionality:
 
 User can log out successfully using assertion.
+
+
 
 
 API Tests

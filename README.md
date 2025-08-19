@@ -1,14 +1,14 @@
 POM Selenium Test Automation Framework
 
 
-Description
+Description:
 
 
 This project is a Selenium Test Automation Framework based on the Page Object Model (POM) design pattern. For testing purposes, I selected the website: https://gorgia.ge/ka
 
 
 
-Features
+Features:
 
 
 Page Object Model (POM) - design pattern
@@ -25,7 +25,7 @@ API Testing - (REST Assured)
 
 
 
-Tech Stack
+Tech Stack:
 
 
 Java 11+ (Tested on Java 24)
@@ -34,7 +34,7 @@ Selenium WebDriver
 
 
 
-TestNG
+TestNG:
 
 Maven 3.6+ (Tested on Maven 3.9.10)
 
@@ -44,7 +44,7 @@ PageFactory
 
 
 
-Prerequisites
+Prerequisites:
 
 
 Before running the project, make sure you have:
@@ -59,7 +59,7 @@ Chrome browser (or the one you want to test on)
 
 
 
-Dependencies & Versions
+Dependencies & Versions:
 
 
 Selenium Java: 4.23.0
@@ -76,11 +76,13 @@ Maven Surefire Plugin: 3.2.5
 
 
 
-Implemented Tests
+Implemented Tests:
 
 
 
-UI Tests
+UI Tests:
+
+
 Verify Home Page search functionality:
 
 User can open the Home Page, type a valid product (e.g., pouf chair), and click Search.
@@ -104,7 +106,7 @@ User can log out successfully using assertion.
 
 
 
-API Tests
+API Tests:
 
 
 Verify GET request:
